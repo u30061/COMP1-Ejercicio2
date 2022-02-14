@@ -1,0 +1,17 @@
+java -jar jflex-full-1.8.2.jar definicion.jflex
+javac Ejercicio.java
+java Ejercicio texto.txt
+
+
+
+javac -d .\build\ 
+.\josq\analisis\*.java 
+.\josq\interfaz\contenedores\*.java 
+.\josq\interfaz\controles\*.java 
+.\josq\interfaz\texto\*.java 
+.\josq\interfaz\ventanas\*.java
+
+
+javac -d .\build\ .\josq\analisis\*.java .\josq\interfaz\contenedores\*.java .\josq\interfaz\controles\*.java .\josq\interfaz\texto\*.java .\josq\interfaz\ventanas\*.java
+jar cfe Ejercicio2.jar josq.interfaz.ventanas.Principal -C .\build\ .
+java -jar Ejercicio2.jar

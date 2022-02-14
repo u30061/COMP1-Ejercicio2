@@ -1,0 +1,16 @@
+\n newline (LF)
+\r carriage return (CR)
+\b backspace (BS)
+\t tab (TAB)
+\f form feed (FF)
+
+%7bit
+%standalone
+%line
+%column
+%int
+
+
+
+
+
